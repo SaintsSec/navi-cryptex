@@ -63,7 +63,7 @@ def run(arguments=None):
     # If there are no args, exit.
     if not argv:
         controller.cli.print_ciphers()
-        print_message("Please enter an argument when using this command.\nTry --help or -h for more information")
+        print_message("To get help type 'cryptex <cipher shortcode>'")
         return
     # Start the menu if specified
     if len(argv) > 1 and ('--tui' in argv[1] or '-tui' in argv[1]):
