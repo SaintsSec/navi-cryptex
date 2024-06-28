@@ -64,8 +64,8 @@ class Controller:
         except ValueError as e:
             print(e)
         if module is None:
-            print_message("No cipher selected. see the help menu for more info")
-
+            print_message("No cipher selected. type 'cryptex <cipher shortcode> for help")
+            #TODO need to figure out what is causing this part to error out. 
         if check_argument(user_args, "test"):
             print('\n')
             status = [0, 0]
@@ -123,7 +123,7 @@ class Controller:
         elif check_argument(user_args, "brute"):
             func = module.brute(user_args)
         else:
-            print_message("No mode selected. see the help menu for more info")
+            print_message("No arguments parsed, \nhere is the help for the requested cipher:")
             module.print_options(self)
             return
         if func['success']:
