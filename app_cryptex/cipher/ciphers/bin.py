@@ -43,8 +43,8 @@ class bin(Cipher):
         -t / --text ------ input text
 
         ### Examples
-        python main.py text -e -t 'hello'
-        python main.py text -d -t 'hello'
+        cryptex bin -e -t 'hello'
+        cryptex bin -d -t 'hello'
         ''')
 
     def test(args):

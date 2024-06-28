@@ -74,6 +74,6 @@ class GC(Cipher):
         -t / --text ------ input text
 
         ### Examples
-        python main.py gc -e -t 'hello'
-        python main.py gc -d -t 'hduup'
+        cryptex gc -e -t 'hello'
+        cryptex gc -d -t 'hduup'
         ''')

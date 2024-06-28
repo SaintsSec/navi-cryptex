@@ -1,3 +1,4 @@
+# Original menc code created by @marvhus on github.
 from ..cipher import Cipher
 
 
@@ -92,7 +93,7 @@ class Menc(Cipher):
         -k / --key ------- key
 
         ### Examples
-        python main.py menc -e -t 'hello' -k 'world'
+        cryptex menc -e -t 'hello' -k 'world'
 
-        python main.py menc -d -t 'world' -k '0F0A060054'
+        cryptex menc -d -t 'world' -k '0F0A060054'
         ''')

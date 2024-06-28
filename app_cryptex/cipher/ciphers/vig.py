@@ -67,8 +67,8 @@ class Vig(Cipher):
         -k / --key ------- key
 
         ### Examples
-        python main.py text -e -t "hello" -k 'key'
-        python main.py text -d -t "rijvs" -k 'key'
+        cryptex vig -e -t "hello" -k 'key'
+        cryptex vig -d -t "rijvs" -k 'key'
         ''')
 
     def test(args):

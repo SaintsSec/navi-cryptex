@@ -49,8 +49,8 @@ class B64(Cipher):
         -t / --text ------ input text
 
         ### Examples
-        python main.py text -e -t 'hello'
-        python main.py text -d -t 'hello'
+        cryptex b64 -e -t 'hello'
+        cryptex b64 -d -t 'hello'
         ''')
 
     def test(args):

@@ -32,5 +32,5 @@ class sha224(Cipher):
         -t / --text ------ input text
 
         ### Examples
-        python main.py sha224 -e -t 'hello'
+        cryptex sha224 -e -t 'hello'
         ''')

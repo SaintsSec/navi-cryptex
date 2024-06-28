@@ -91,8 +91,8 @@ class Affine(Cipher):
         -kb / --key_b -------input key -b
 
         ### Examples
-        python main.py text -e -t 'hello' -ka 21 -kb 1
-        python main.py text -d -t 'hello' -ka 2
+        cryptex affn -e -t 'hello' -ka 21 -kb 1
+        cryptex affn -d -t 'hello' -ka 2
 
         Note: Cipher is Case Sensitive. Default Dictionary: abcdefghijklmnopqrstuvwxyz
         ''')

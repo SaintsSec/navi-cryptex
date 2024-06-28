@@ -32,5 +32,5 @@ class MD5(Cipher):
         -t / --text ------ input text
 
         ### Examples
-        python main.py md5 -e -t 'hello'
+        cryptex md5 -e -t 'hello'
         ''')

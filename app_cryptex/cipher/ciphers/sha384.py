@@ -32,5 +32,5 @@ class sha384(Cipher):
         -t / --text ------ input text
 
         ### Examples
-        python main.py sha384 -e -t 'hello'
+        cryptex sha384 -e -t 'hello'
         ''')

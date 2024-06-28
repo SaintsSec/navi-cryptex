@@ -80,6 +80,6 @@ class Midify(Cipher):
         -o / --output ---- output file path
 
         ### Examples
-        python main.py midify -e -t 'hello' -o 'message.mid'
-        python main.py midify -d -i 'message.mid'
+        cryptex midify -e -t 'hello' -o 'message.mid'
+        cryptex midify -d -i 'message.mid'
         ''')

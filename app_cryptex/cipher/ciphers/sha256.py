@@ -32,5 +32,5 @@ class sha256(Cipher):
         -t / --text ------ input text
 
         ### Examples
-        python main.py sha256 -e -t 'hello'
+        cryptex sha256 -e -t 'hello'
         ''')

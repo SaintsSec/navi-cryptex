@@ -64,8 +64,8 @@ class Controller:
         except ValueError as e:
             print(e)
         if module is None:
-            print_message("No cipher selected. type 'cryptex <cipher shortcode> for help")
-            #TODO need to figure out what is causing this part to error out. 
+            print_message("No cipher selected. type `cryptex` for cipher list!")
+            return
         if check_argument(user_args, "test"):
             print('\n')
             status = [0, 0]

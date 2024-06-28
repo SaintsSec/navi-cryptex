@@ -60,9 +60,9 @@ class Translate(Cipher):
         -dest ------------ destination language
 
         ### Examples
-        python main.py translate -e --lang
-        python main.py translate -e -t 'hello' -src 'en' -dest 'no'
-        python main.py translate -d -t 'hallo' -src 'no' -dest 'en'
+        cryptex translate -e --lang
+        cryptex translate -e -t 'hello' -src 'en' -dest 'no'
+        cryptex translate -d -t 'hallo' -src 'no' -dest 'en'
         ''')
 
     def test(args):

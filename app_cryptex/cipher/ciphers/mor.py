@@ -122,8 +122,8 @@ class Mor(Cipher):  # make sure you change this from text to your cipher
         -t / --text ------ input text
 
         ### Examples
-        python main.py mor -e -t 'hello'
-        python main.py mor -d -t '.... . .-.. .-.. ---'
+        cryptex mor -e -t 'hello'
+        cryptex mor -d -t '.... . .-.. .-.. ---'
         ''')
 
     def test(args):

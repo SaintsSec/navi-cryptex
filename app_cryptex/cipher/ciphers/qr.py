@@ -72,5 +72,5 @@ class qr(Cipher):  # I don't like that this doesn't follow the correct naming co
         -o / --output ---- output file
 
         ### Examples
-        python main.py qr -e -t "hello" -o 'text.png'
+        cryptex qr -e -t "hello" -o 'text.png'
         ''')

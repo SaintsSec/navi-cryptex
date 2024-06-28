@@ -45,7 +45,7 @@ class Template(Cipher):
         ### Input
         -t / --text ------ input text
 
-        ### Examples
-        python main.py text -e -t 'hello'
-        python main.py text -d -t 'hello'
+        ### Examples Change these <3
+        cryptex text -e -t 'hello'
+        cryptex text -d -t 'hello'
         ''')

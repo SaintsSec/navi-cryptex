@@ -59,8 +59,8 @@ class R47(Cipher):
         -t / --text ------ input text
 
         ### Examples
-        python main.py r47 -e -t 'hello'
-        python main.py r47 -d -t 'hello'
+        cryptex r47 -e -t 'hello'
+        cryptex r47 -d -t 'hello'
         ''')
 
     def test(args):

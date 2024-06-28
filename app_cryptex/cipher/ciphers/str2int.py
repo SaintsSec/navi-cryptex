@@ -53,6 +53,6 @@ class str2int(Cipher):
         -t / --text ------ input text
 
         ### Examples
-        python main.py str2int -e -t 'hello'
-        python main.py str2int -d -t ''
+        cryptex str2int -e -t 'hello'
+        cryptex str2int -d -t ''
         ''')

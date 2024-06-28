@@ -44,8 +44,8 @@ class Oct(Cipher): # make sure you change this from text to your cipher
         -t / --text ------ input text
 
         ### Examples
-        python main.py oct -e -t 'hello'
-        python main.py oct -d -t '150 145 154 154 157'
+        cryptex oct -e -t 'hello'
+        cryptex oct -d -t '150 145 154 154 157'
         ''')
 
     def test(args):

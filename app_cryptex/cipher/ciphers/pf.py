@@ -163,8 +163,8 @@ class PF(Cipher):
         -k / --key ------- shift key
 
         ### Examples
-        python main.py pf -e -t 'hello' -k 'charles'
-        python main.py pf -d -t 'csazcu' -k 'charles'
+        cryptex pf -e -t 'hello' -k 'charles'
+        cryptex pf -d -t 'csazcu' -k 'charles'
 
         Note: Default ignored character is 'i' and bogus/filler character is 'x'
         ''')

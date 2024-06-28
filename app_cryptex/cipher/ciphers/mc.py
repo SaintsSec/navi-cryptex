@@ -88,4 +88,7 @@ class MC(Cipher):
         ### Input
         -t / --text ------ input text
         -k / --key ------- shift key
+        
+        ### Example
+        cryptex mc -e -t "hello" -k 3
         ''')

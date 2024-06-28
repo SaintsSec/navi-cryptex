@@ -141,8 +141,8 @@ class Bac(Cipher):
         -k / --key ------ key contains 2 characters only
 
         ### Examples
-        python main.py bac -e -t 'hello'
-        python main.py bac -d -t 'aabbbabaaa'
-        python main.py bac -e -t 'hello' -k 'xy'
-        python main.py bac -d -t 'xxyyyxyxxx' -k 'xy'
+        cryptex bac -e -t 'hello'
+        cryptex bac -d -t 'aabbbabaaa'
+        cryptex bac -e -t 'hello' -k 'xy'
+        cryptex bac -d -t 'xxyyyxyxxx' -k 'xy'
         ''')

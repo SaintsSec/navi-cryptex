@@ -63,8 +63,8 @@ class XOR(Cipher):
         -k / --key ------- key
 
         ### Examples
-        python main.py text -e -t 'hello' -k 'KEY'
-        python main.py text -d -t '# 5'*' -k 'KEY'
+        cryptex xor -e -t 'hello' -k 'KEY'
+        cryptex xor -d -t '# 5'*' -k 'KEY'
         ''')
 
     def test(args):

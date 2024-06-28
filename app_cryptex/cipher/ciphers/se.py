@@ -134,10 +134,10 @@ class SE(Cipher):
         -m / --monocromatic - monocromatic mode
 
         ### Examples
-        python main.py se -e -t 'hello'       -o 'hello.png'
-        python main.py se -e -t 'hello' -iw 3 -o 'hello.png'
-        python main.py se -e -t 'hello' -m    -o 'hello.png'
-        python main.py se -d -i 'hello.png' 
-        python main.py se -d -i 'hello.png' -iw 3
-        python main.py se -d -i 'hello.png' -m
+        cryptex se -e -t 'hello'       -o 'hello.png'
+        cryptex se -e -t 'hello' -iw 3 -o 'hello.png'
+        cryptex se -e -t 'hello' -m    -o 'hello.png'
+        cryptex se -d -i 'hello.png' 
+        cryptex se -d -i 'hello.png' -iw 3
+        cryptex se -d -i 'hello.png' -m
         ''')

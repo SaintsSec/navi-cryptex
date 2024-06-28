@@ -42,7 +42,7 @@ class Hex(Cipher):
         -t / --text ------ input text
 
         ### Example
-        python3 main.py -e -t 'Hello world!'
+        cryptex hex -e -t 'Hello world!'
         ''')
         #TODO(marvhus): Remove -o/--output and instead implement it in the Main.output() function
 

@@ -45,7 +45,7 @@ class Pb(Cipher):
         -i / --input ------ input file [.txt]
         -r / --range ------- range [<start>, <end> or <start>]
         ### Examples
-        python main.py pb -b -t '1234' -r 4
-        python main.py pb -b -t '1234' -r 3,5
-        python main.py pb -b -i <path_to_.txt> -r 2,3
+        cryptex pb -b -t '1234' -r 4
+        cryptex pb -b -t '1234' -r 3,5
+        cryptex pb -b -i <path_to_.txt> -r 2,3
         ''')

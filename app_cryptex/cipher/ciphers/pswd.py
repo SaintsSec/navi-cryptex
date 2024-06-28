@@ -44,5 +44,5 @@ class PSWD(Cipher):
         -len ------------- input text
 
         ### Examples
-        python main.py pswd -e -len 32
+        cryptex pswd -e -len 32
         ''')

@@ -83,8 +83,8 @@ class AK(Cipher):
         -ex / --exclude -- exclude list
 
         ### Examples
-        python main.py cc -e -t "hello" -k 10
-        python main.py cc -d -t "hello" -k 10
-        python main.py cc -e -t "hello" -k 10 -ex '123456789'
-        python main.py cc -d -t "hello" -k 10 -ex '123456789'
+        cryptex cc -e -t "hello" -k 10
+        cryptex cc -d -t "hello" -k 10
+        cryptex cc -e -t "hello" -k 10 -ex '123456789'
+        cryptex cc -d -t "hello" -k 10 -ex '123456789'
        ''')

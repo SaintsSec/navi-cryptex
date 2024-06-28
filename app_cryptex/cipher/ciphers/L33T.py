@@ -66,8 +66,8 @@ class L33T(Cipher):  # make sure you change this from text to your cipher
         -t / --text ------ input text
 
         ### Examples
-        python main.py l33t -e -t 'hello'
-        python main.py l33t -d -t 'h3llo'
+        cryptex l33t -e -t 'hello'
+        cryptex l33t -d -t 'h3llo'
         ''')
 
     def test(args):
