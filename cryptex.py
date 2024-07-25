@@ -1,7 +1,7 @@
 from .app_cryptex.controller import Controller
 from .app_cryptex.menusystem import MenuSystem
 from navi import get_parameters
-from navi_shell import print_message
+import navi_internal
 from .app_cryptex.cipher.ciphers import *
 
 command = "cryptex"
@@ -49,6 +49,7 @@ def get_argument_value(args, name):
 
 
 def run(arguments=None):
+
     # Check if there are args
     argv = get_parameters(arguments.text)
     argv.pop(0)  # Remove the command name
@@ -63,7 +64,7 @@ def run(arguments=None):
     # If there are no args, exit.
     if not argv:
         controller.cli.print_ciphers()
-        print_message("To get help type 'cryptex <cipher shortcode>'")
+        navi_internal.navi_instance.print_message("To get help type 'cryptex <cipher shortcode>'")
         return
     # Start the menu if specified
     if len(argv) > 1 and ('--tui' in argv[1] or '-tui' in argv[1]):
