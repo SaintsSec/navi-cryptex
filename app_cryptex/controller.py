@@ -1,5 +1,6 @@
+import navi_internal
+
 from colorama import Fore
-from navi_shell import print_message
 from .vars import banner
 
 
@@ -64,7 +65,7 @@ class Controller:
         except ValueError as e:
             print(e)
         if module is None:
-            print_message("No cipher selected. type `cryptex` for cipher list!")
+            navi_internal.navi_instance.print_message("No cipher selected. type `cryptex` for cipher list!")
             return
         if check_argument(user_args, "test"):
             print('\n')
@@ -123,7 +124,7 @@ class Controller:
         elif check_argument(user_args, "brute"):
             func = module.brute(user_args)
         else:
-            print_message("No arguments parsed, \nhere is the help for the requested cipher:")
+            navi_internal.navi_instance.print_message("No arguments parsed, \nhere is the help for the requested cipher:")
             module.print_options(self)
             return
         if func['success']:
@@ -137,7 +138,7 @@ class Controller:
                         import subprocess
                         import platform
                         import os
-                        print_message(f"Done! Attempting to open {output_location} in default text editor")
+                        navi_internal.navi_instance.print_message(f"Done! Attempting to open {output_location} in default text editor")
                         if platform.system() == 'Linux':
                             # For Unix-like operating systems
                             subprocess.call(["xdg-open", output_location])
@@ -149,6 +150,6 @@ class Controller:
                             subprocess.call(["open", output_location])
                         return
                 except Exception as e:
-                    print_message(f"Error writing to file: {e}")
+                    navi_internal.navi_instance.print_message(f"Error writing to file: {e}")
                     return
-        print_message(f"Done!\n{func['text']}" if func['success'] else f"Ah! Something went wrong: {func['text']}")
+        navi_internal.navi_instance.print_message(f"Done!\n{func['text']}" if func['success'] else f"Ah! Something went wrong: {func['text']}")
